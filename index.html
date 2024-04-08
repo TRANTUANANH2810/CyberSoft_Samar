@@ -13,6 +13,21 @@
             rel="stylesheet"
         />
 
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- animation -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
         <!-- reset css -->
         <link rel="stylesheet" href="./css/reset.css" />
 
@@ -21,10 +36,79 @@
     </head>
     <body>
         <!-- Header (Logo, nav, button) -->
-        <header class="header"></header>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a href="#!" class="logo__link">
+                        <img src="./imgs/logo-2.png" alt="" class="logo__img" />
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span>Home</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span> Pages</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span> Services</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span> Post Layout</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span> Blogs</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">
+                                    <span> Contacts</span>
+                                    <i class="fa-solid fa-chevron-down"></i
+                                ></a>
+                            </li>
+                        </ul>
+
+                        <button class="btn">GET A QUOTE</button>
+                        <!-- <button class="btn">Test</button> -->
+                    </nav>
+                </div>
+            </div>
+        </header>
 
         <!-- Carousel  -->
-        <section class="carousel"></section>
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel-left">
+                    <div class="title">
+                        <p
+                            class="sub-title animate__animated animate__fadeInUp"
+                        >
+                            We are The Best
+                        </p>
+                        <h2
+                            class="content-title animate__animated animate__fadeInUp animate__delay-1s"
+                        >
+                            Freelance Product Designer Running
+                        </h2>
+                    </div>
+                </div>
+                <div class="carousel-right"></div>
+            </div>
+        </section>
 
         <!-- Services -->
         <section class="services"></section>
