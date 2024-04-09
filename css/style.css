@@ -217,6 +217,13 @@ a {
     box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
     padding: 3rem 4.5rem;
     border: 3px solid transparent;
+    transform: translateY(0px);
+    transition: all 0.5s;
+}
+
+.services__item:hover {
+    transform: translateY(-20px);
+    border-image: url(../imgs/br.png) 1 round;
 }
 
 .services__img {
@@ -227,4 +234,36 @@ a {
     color: #262626;
     font-size: 2.4rem;
     font-weight: 500;
+}
+
+/* !About */
+
+.about {
+    padding-top: 11.5rem;
+    background-image: url(../imgs/bg15.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-bottom: 8.5rem;
+    overflow: hidden;
+}
+
+.about-content {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+}
+
+.about__left {
+    width: 60%;
+    position: absolute;
+    left: -17%;
+}
+
+.about__img {
+    width: 100%;
+    border-radius: 0 10rem 10rem 0;
+}
+.about__right {
+    width: 50%;
 }
