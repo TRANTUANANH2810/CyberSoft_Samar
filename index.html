@@ -28,6 +28,8 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
 
+        <!--  -->
+
         <!-- reset css -->
         <link rel="stylesheet" href="./css/reset.css" />
 
@@ -207,10 +209,18 @@
         <section class="about">
             <div class="container">
                 <div class="about-content">
-                    <div class="about__left">
+                    <div
+                        class="about__left wow animate__animated animate__fadeInLeft"
+                        data-wow-duration="2s"
+                        data-wow-delay="0.2s"
+                    >
                         <img src="./imgs/pic1.jpg" alt="" class="about__img" />
                     </div>
-                    <div class="about__right">
+                    <div
+                        class="about__right wow animate__animated animate__fadeInRight"
+                        data-wow-duration="2s"
+                        data-wow-delay="0.2s"
+                    >
                         <div class="title">
                             <p class="sub-title">About Us</p>
                             <h2 class="content-title">
@@ -249,7 +259,7 @@
                                     on our recent news.
                                 </li>
                             </ul>
-                            <button class="btn">LEARN MORE</button>
+                            <button class="btn btn__about">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -257,11 +267,138 @@
         </section>
 
         <!-- numbers -->
-        <section class="numb"></section>
+        <section class="numb">
+            <div class="container">
+                <div class="numb-content">
+                    <div class="numb__item">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <p class="numb__title">
+                            <span class="counter">18</span> ML
+                        </p>
+
+                        <p class="numb__desc">Satisfied Clients</p>
+                    </div>
+
+                    <div class="numb__item">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <p class="numb__title">
+                            <span class="counter">20</span> ML
+                        </p>
+
+                        <p class="numb__desc">Project Completed</p>
+                    </div>
+                    <div class="numb__item">
+                        <i class="fa-solid fa-rocket"></i>
+                        <p class="numb__title">
+                            <span class="counter">30</span> ML
+                        </p>
+
+                        <p class="numb__desc">Project Lunched</p>
+                    </div>
+                    <div class="numb__item">
+                        <i class="fa-solid fa-gift"></i>
+                        <p class="numb__title">
+                            <span class="counter">50</span> ML
+                        </p>
+
+                        <p class="numb__desc">Years Completed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Features -->
 
-        <section class="features"></section>
+        <section class="features">
+            <div class="container">
+                <div class="features-content">
+                    <div class="features__left">
+                        <div
+                            class="title wow animate__animated animate__fadeInLeft"
+                            data-wow-duration="2s"
+                            data-wow-delay="0.2s"
+                        >
+                            <p class="sub-title">Our Features</p>
+                            <h2 class="content-title">
+                                Behind The Story <br />
+                                Of Samar Agency
+                            </h2>
+                        </div>
+
+                        <div class="features__group">
+                            <div
+                                class="features__item wow animate__animated animate__fadeInRight"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.2s"
+                            >
+                                <div class="features__icon">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                </div>
+                                <div class="features__content">
+                                    <h3 class="features__title">
+                                        Idea & Analysis Gathering
+                                    </h3>
+                                    <p class="features__desc">
+                                        Maecenas laoreet efficitur sagittis.
+                                        Aliquam eleifend nisl leo, sit amet
+                                        consequat augue.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="features__item wow animate__animated animate__fadeInRight"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.4s"
+                            >
+                                <div class="features__icon">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                </div>
+                                <div class="features__content">
+                                    <h3 class="features__title">
+                                        Idea & Analysis Gathering
+                                    </h3>
+                                    <p class="features__desc">
+                                        Maecenas laoreet efficitur sagittis.
+                                        Aliquam eleifend nisl leo, sit amet
+                                        consequat augue.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="features__item wow animate__animated animate__fadeInRight"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.8s"
+                            >
+                                <div class="features__icon">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                </div>
+                                <div class="features__content">
+                                    <h3 class="features__title">
+                                        Idea & Analysis Gathering
+                                    </h3>
+                                    <p class="features__desc">
+                                        Maecenas laoreet efficitur sagittis.
+                                        Aliquam eleifend nisl leo, sit amet
+                                        consequat augue.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features__right">
+                        <div class="features__bg">
+                            <img
+                                src="./imgs/pic3.png"
+                                alt=""
+                                class="features__img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Portfolio -->
         <section class="portfolio"></section>
@@ -271,5 +408,39 @@
 
         <!-- Footer -->
         <footer class="footer"></footer>
+
+        <!--! jquery -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--! jquery waypoints -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+            integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- !WoW -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!-- Run wow -->
+        <script>
+            new WOW().init();
+        </script>
+
+        <!-- NUmber -->
+        <!-- countUp -->
+        <script src="js/jquery.countup.min.js"></script>
+        <script>
+            $(".counter").countUp();
+        </script>
     </body>
 </html>
