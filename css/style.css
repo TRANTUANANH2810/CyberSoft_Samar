@@ -399,10 +399,6 @@ a {
     }
 }
 
-.features__item {
-    /* opacity: 0; */
-}
-
 .features__item:hover {
     background-image: linear-gradient(
         to right,
@@ -652,9 +648,6 @@ a {
     transform: translateY(81px);
     transition: all 0.75s ease 0s;
     color: #fff;
-}
-
-.portfolio__icon i {
 }
 
 .portfolio__title {
