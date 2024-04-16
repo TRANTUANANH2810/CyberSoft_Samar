@@ -197,6 +197,11 @@ a {
     margin-right: 10px;
 }
 
+/* btn carousel */
+.btn-start {
+    margin-left: 0;
+}
+
 /* ! Services */
 
 .services {
@@ -520,6 +525,7 @@ a {
     background: #f55f8d;
     color: white;
     transition: all 0.2s;
+    z-index: 2;
 }
 
 .backToTop:hover {
